@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const CallToAction = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-cpo-charcoal to-cpo-light-charcoal text-white">
+    <section className="py-16 bg-gradient-to-r from-cpo-charcoal to-cpo-light-charcoal text-white">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white font-heading">
           Ready to Meet Your People?
