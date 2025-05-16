@@ -88,7 +88,7 @@ const Membership = () => {
                 </div>
                 
                 <Button 
-                  className={tier.highlighted ? "btn-cpo w-full" : "btn-cpo-secondary w-full"}
+                  className="bg-cpo-orange hover:bg-cpo-light-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all w-full"
                 >
                   {tier.cta}
                 </Button>

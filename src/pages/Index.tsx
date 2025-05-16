@@ -8,7 +8,6 @@ import CommunityRules from "@/components/CommunityRules";
 import Membership from "@/components/Membership";
 import Sponsorship from "@/components/Sponsorship";
 import CallToAction from "@/components/CallToAction";
-import Footer from "@/components/Footer";
 
 const Index: React.FC = () => {
   return (
@@ -21,7 +20,6 @@ const Index: React.FC = () => {
       <Membership />
       <Sponsorship />
       <CallToAction />
-      <Footer />
     </div>
   );
 };

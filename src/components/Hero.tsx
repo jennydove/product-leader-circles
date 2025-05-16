@@ -24,10 +24,9 @@ const Hero = () => {
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10">
           Join a global community of CPOs who trade insights, solve real problems, and build lasting, high-trust relationships.
         </p>
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <Button className="btn-cpo text-lg py-6 px-8">Join the Conversation</Button>
-          <Button variant="outline" className="text-lg py-6 px-8 text-white border-white hover:bg-white/10">
-            Learn More
+        <div className="flex justify-center">
+          <Button className="bg-cpo-orange hover:bg-cpo-light-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all">
+            Join the Conversation
           </Button>
         </div>
       </div>
