@@ -5,14 +5,14 @@ const CallToAction = () => {
   return (
     <section className="py-20 bg-gradient-to-r from-cpo-charcoal to-cpo-light-charcoal text-white">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white font-heading">
           Ready to Meet Your People?
         </h2>
-        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10">
+        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10 font-body">
           Apply for an upcoming lunch or try the Back Room for free. It's time to connect with the leaders who get it.
         </p>
         <div className="flex justify-center">
-          <Button className="bg-cpo-orange hover:bg-cpo-light-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all">
+          <Button className="bg-cpo-orange hover:bg-cpo-light-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all font-body">
             Apply Now
           </Button>
         </div>
