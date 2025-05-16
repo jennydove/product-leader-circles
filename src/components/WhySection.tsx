@@ -1,22 +1,22 @@
 
-import { CheckCircle } from "lucide-react";
+import { MessageCircle, Users, Lightbulb } from "lucide-react";
 
 const WhySection = () => {
   const benefits = [
     {
       title: "Real Conversations",
       description: "Cut through the noise with candid, off-the-record discussions that address the challenges you actually face.",
-      icon: <CheckCircle className="h-12 w-12 text-cpo-orange mb-4" />
+      icon: <MessageCircle className="h-12 w-12 text-cpo-orange/80 mb-4" />
     },
     {
       title: "Meaningful Connections",
       description: "Build real relationships with people who understand your challenges and can provide relevant support.",
-      icon: <CheckCircle className="h-12 w-12 text-cpo-orange mb-4" />
+      icon: <Users className="h-12 w-12 text-cpo-orange/80 mb-4" />
     },
     {
       title: "Practical Insights",
       description: "Walk away with actionable takeaways and new ideas to drive your team forward and enhance your leadership.",
-      icon: <CheckCircle className="h-12 w-12 text-cpo-orange mb-4" />
+      icon: <Lightbulb className="h-12 w-12 text-cpo-orange/80 mb-4" />
     }
   ];
 
