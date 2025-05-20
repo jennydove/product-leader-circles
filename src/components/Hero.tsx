@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="relative flex items-center justify-center overflow-hidden py-20 md:py-32">
+    <div className="relative flex items-center justify-center overflow-hidden py-16 md:py-24">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div 
           className="w-full h-full bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/f808272a-588b-4b3a-a943-1d4c26059863.png')", 
+            backgroundImage: "url('/lovable-uploads/692d3cb2-8c96-4543-94c3-8f5f0f8c5a93.png')", 
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-cpo-charcoal/90 to-cpo-charcoal/80"></div>

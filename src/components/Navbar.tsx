@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <span className={`text-2xl font-bold ${isScrolled ? 'text-cpo-orange' : 'text-white'}`}>CPO Lunches</span>
+            <span className={`text-2xl font-bold ${isScrolled ? 'text-cpo-orange' : 'text-white'} font-heading`}>CPO Lunches</span>
           </a>
         </div>
 

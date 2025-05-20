@@ -21,7 +21,7 @@ const Sponsorship = () => {
               <div 
                 className="w-full h-full bg-cover bg-center"
                 style={{ 
-                  backgroundImage: "url('/lovable-uploads/692d3cb2-8c96-4543-94c3-8f5f0f8c5a93.png')", 
+                  backgroundImage: "url('/lovable-uploads/f808272a-588b-4b3a-a943-1d4c26059863.png')", 
                   minHeight: "400px"
                 }}
               >

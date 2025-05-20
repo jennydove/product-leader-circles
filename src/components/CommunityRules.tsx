@@ -1,27 +1,21 @@
 
-import { Check, X } from "lucide-react";
-
 const CommunityRules = () => {
   const rules = [
     {
       title: "No Non-Product People",
       description: "Only senior product leaders to keep the conversations focused and relevant.",
-      icon: <Check className="h-6 w-6 text-green-600" />,
     },
     {
       title: "No Vendors or Recruiters",
       description: "This is a space for real peer connections, not sales pitches.",
-      icon: <X className="h-6 w-6 text-red-600" />,
     },
     {
       title: "Confidentiality First",
       description: "What's said in the room stays in the room – no social media posts, no outside sharing.",
-      icon: <Check className="h-6 w-6 text-green-600" />,
     },
     {
       title: "Be Present",
       description: "Engage fully, share openly, and contribute to the community's success.",
-      icon: <Check className="h-6 w-6 text-green-600" />,
     }
   ];
 
@@ -45,9 +39,6 @@ const CommunityRules = () => {
                 <h3 className="text-xl font-semibold text-white">
                   {rule.title}
                 </h3>
-                <div className="bg-white/10 p-2 rounded-full">
-                  {rule.icon}
-                </div>
               </div>
               <p className="text-white/80">
                 {rule.description}

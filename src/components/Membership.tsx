@@ -1,5 +1,5 @@
 
-import { Check, Star } from "lucide-react";
+import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Membership = () => {
@@ -31,7 +31,7 @@ const Membership = () => {
         "Personalized introductions"
       ],
       cta: "Try Free for 30 Days",
-      highlighted: true
+      highlighted: false
     }
   ];
 
@@ -55,13 +55,6 @@ const Membership = () => {
                 }
               `}
             >
-              {tier.highlighted && (
-                <div className="bg-cpo-orange py-2 px-4 flex items-center justify-center gap-2">
-                  <Star className="h-4 w-4 text-white" fill="white" />
-                  <span className="text-sm font-medium text-white">MOST POPULAR</span>
-                </div>
-              )}
-              
               <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl font-bold text-cpo-charcoal mb-2">
                   {tier.name}
