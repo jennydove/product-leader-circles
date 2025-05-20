@@ -110,12 +110,64 @@ export default {
 						opacity: '1',
 						transform: 'translateY(0)'
 					}
+				},
+				'pulse-slow': {
+					'0%, 100%': {
+						opacity: '0.8',
+						transform: 'scale(1)'
+					},
+					'50%': {
+						opacity: '1',
+						transform: 'scale(1.05)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'shimmer': {
+					'0%': {
+						backgroundPosition: '-40rem 0'
+					},
+					'100%': {
+						backgroundPosition: '40rem 0'
+					}
+				},
+				'gradient-x': {
+					'0%, 100%': {
+						backgroundPosition: '0% 50%'
+					},
+					'50%': {
+						backgroundPosition: '100% 50%'
+					}
+				},
+				'gradient-y': {
+					'0%, 100%': {
+						backgroundPosition: '50% 0%'
+					},
+					'50%': {
+						backgroundPosition: '50% 100%'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.5s ease-out'
+				'fade-in': 'fade-in 0.5s ease-out',
+				'pulse-slow': 'pulse-slow 4s infinite ease-in-out',
+				'float': 'float 6s infinite ease-in-out',
+				'shimmer': 'shimmer 2.5s infinite linear',
+				'gradient-x': 'gradient-x 15s ease infinite',
+				'gradient-y': 'gradient-y 15s ease infinite',
+				'pulse': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
 			}
 		}
 	},
