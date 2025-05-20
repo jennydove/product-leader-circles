@@ -20,7 +20,7 @@ const CallToAction = () => {
           Apply for an upcoming lunch or try the Back Room for free. It's time to connect with the leaders who get it.
         </p>
         <div className="flex justify-center">
-          <Button className="bg-white hover:bg-cpo-off-white text-cpo-orange hover:text-cpo-light-orange border-2 border-transparent hover:border-white/20 px-8 py-6 text-lg rounded-md font-medium transition-all font-body shadow-xl hover:shadow-white/20">
+          <Button className="bg-gradient-to-r from-cpo-orange to-cpo-light-orange hover:from-cpo-light-orange hover:to-cpo-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all font-body shadow-xl hover:shadow-white/20 hover:-translate-y-1">
             Apply Now
           </Button>
         </div>

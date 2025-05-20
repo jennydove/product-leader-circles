@@ -16,7 +16,7 @@ const Hero = () => {
         <div 
           className="w-full h-full bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/692d3cb2-8c96-4543-94c3-8f5f0f8c5a93.png')", 
+            backgroundImage: "url('/lovable-uploads/f808272a-588b-4b3a-a943-1d4c26059863.png')", 
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-br from-cpo-charcoal/90 via-cpo-light-charcoal/85 to-cpo-orange/30"></div>
@@ -42,7 +42,7 @@ const Hero = () => {
           Join a global community of CPOs who trade insights, solve real problems, and build lasting, high-trust relationships.
         </p>
         <div className={`flex justify-center transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-          <Button className="bg-cpo-orange hover:bg-cpo-light-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all font-body shadow-lg hover:shadow-cpo-orange/30 hover:shadow-xl hover:-translate-y-1">
+          <Button className="bg-gradient-to-r from-cpo-orange to-cpo-light-orange hover:from-cpo-light-orange hover:to-cpo-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all font-body shadow-lg hover:shadow-cpo-orange/30 hover:shadow-xl hover:-translate-y-1">
             Join the Conversation
           </Button>
         </div>

@@ -1,22 +1,12 @@
 
 import { MessageCircle, Users, Lightbulb } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
 const WhySection = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      if (scrollPosition > 100) {
-        setIsVisible(true);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    setIsVisible(true);
   }, []);
 
   const benefits = [
@@ -58,7 +48,7 @@ const WhySection = () => {
           {benefits.map((benefit, index) => (
             <div 
               key={index} 
-              className={`group bg-gradient-to-br from-cpo-orange to-cpo-light-orange p-1 rounded-lg shadow-lg transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 ${
+              className={`group bg-gradient-to-br from-cpo-orange to-cpo-light-orange p-1 rounded-lg shadow-lg transition-all duration-500 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
               style={{
@@ -77,7 +67,7 @@ const WhySection = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="bg-white shadow-xl rounded-lg p-8 max-w-2xl mx-auto transform rotate-1 hover:rotate-0 transition-all">
+          <div className="bg-white shadow-xl rounded-lg p-8 max-w-2xl mx-auto">
             <p className="text-lg text-cpo-light-charcoal italic">
               "CPO Lunches created a space where I could finally be honest about my challenges. 
               It's the only professional group where I feel truly understood."

@@ -23,11 +23,11 @@ const Sponsorship = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Left Column - Image */}
           <div className="lg:w-1/2">
-            <div className="rounded-xl overflow-hidden h-full shadow-2xl transform rotate-1 hover:rotate-0 transition-all duration-300 group">
+            <div className="rounded-xl overflow-hidden h-full shadow-2xl">
               <div 
-                className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-all duration-700"
+                className="w-full h-full bg-cover bg-center"
                 style={{ 
-                  backgroundImage: "url('/lovable-uploads/f808272a-588b-4b3a-a943-1d4c26059863.png')", 
+                  backgroundImage: "url('/lovable-uploads/692d3cb2-8c96-4543-94c3-8f5f0f8c5a93.png')", 
                   minHeight: "400px"
                 }}
               >
@@ -59,7 +59,7 @@ const Sponsorship = () => {
               </ul>
             </div>
             
-            <div className="bg-white p-6 rounded-lg mb-8 shadow-lg border border-gray-100 transform hover:-rotate-1 transition-all">
+            <div className="bg-white p-6 rounded-lg mb-8 shadow-lg border border-gray-100">
               <p className="text-cpo-charcoal font-medium italic">
                 "Sponsoring CPO Lunches gave us more valuable product feedback in one afternoon than we got from months of traditional market research."
               </p>
@@ -70,7 +70,7 @@ const Sponsorship = () => {
             
             <Button className="bg-gradient-to-r from-cpo-orange to-cpo-light-orange hover:from-cpo-light-orange hover:to-cpo-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all flex items-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1">
               Sponsor a Lunch
-              <ArrowRight className="h-4 w-4 animate-pulse" />
+              <ArrowRight className="h-4 w-4" />
             </Button>
           </div>
         </div>

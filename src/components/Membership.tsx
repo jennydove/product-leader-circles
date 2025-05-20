@@ -87,7 +87,7 @@ const Membership = () => {
                 </div>
                 
                 <Button 
-                  className={`bg-gradient-to-r from-cpo-orange to-cpo-light-orange hover:from-cpo-light-orange hover:to-cpo-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all w-full mt-auto shadow-lg hover:shadow-cpo-orange/30`}
+                  className="bg-gradient-to-r from-cpo-orange to-cpo-light-orange hover:from-cpo-light-orange hover:to-cpo-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all w-full mt-auto shadow-lg hover:shadow-cpo-orange/30 hover:-translate-y-1"
                 >
                   {tier.cta}
                 </Button>
