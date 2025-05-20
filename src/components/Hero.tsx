@@ -9,7 +9,7 @@ const Hero = () => {
         <div 
           className="w-full h-full bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3')", 
+            backgroundImage: "url('/lovable-uploads/f808272a-588b-4b3a-a943-1d4c26059863.png')", 
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-cpo-charcoal/90 to-cpo-charcoal/80"></div>

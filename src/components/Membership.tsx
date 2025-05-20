@@ -48,7 +48,7 @@ const Membership = () => {
             <div 
               key={index}
               className={`
-                rounded-xl overflow-hidden transition-all
+                rounded-xl overflow-hidden transition-all flex flex-col
                 ${tier.highlighted 
                   ? 'shadow-xl border-2 border-cpo-orange bg-white transform md:scale-105 md:-translate-y-2' 
                   : 'shadow-lg border border-gray-200 bg-white'
@@ -62,7 +62,7 @@ const Membership = () => {
                 </div>
               )}
               
-              <div className="p-8">
+              <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl font-bold text-cpo-charcoal mb-2">
                   {tier.name}
                 </h3>
@@ -76,7 +76,7 @@ const Membership = () => {
                   {tier.description}
                 </p>
                 
-                <div className="space-y-4 mb-8">
+                <div className="space-y-4 mb-8 flex-grow">
                   {tier.features.map((feature, i) => (
                     <div key={i} className="flex items-start gap-3">
                       <div className="mt-1 bg-cpo-off-white p-1 rounded-full">
@@ -88,7 +88,7 @@ const Membership = () => {
                 </div>
                 
                 <Button 
-                  className="bg-cpo-orange hover:bg-cpo-light-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all w-full"
+                  className="bg-cpo-orange hover:bg-cpo-light-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all w-full mt-auto"
                 >
                   {tier.cta}
                 </Button>

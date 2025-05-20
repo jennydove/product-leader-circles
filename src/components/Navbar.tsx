@@ -26,23 +26,23 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-cpo-orange">CPO Lunches</span>
+            <span className={`text-2xl font-bold ${isScrolled ? 'text-cpo-orange' : 'text-white'}`}>CPO Lunches</span>
           </a>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#why" className="text-cpo-charcoal hover:text-cpo-orange transition-colors">Why Join</a>
-          <a href="#experience" className="text-cpo-charcoal hover:text-cpo-orange transition-colors">The Experience</a>
-          <a href="#rules" className="text-cpo-charcoal hover:text-cpo-orange transition-colors">Community Rules</a>
-          <a href="#membership" className="text-cpo-charcoal hover:text-cpo-orange transition-colors">Membership</a>
-          <a href="#sponsor" className="text-cpo-charcoal hover:text-cpo-orange transition-colors">Sponsorship</a>
+          <a href="#why" className={`${isScrolled ? 'text-cpo-charcoal' : 'text-white'} hover:text-cpo-orange transition-colors`}>Why Join</a>
+          <a href="#experience" className={`${isScrolled ? 'text-cpo-charcoal' : 'text-white'} hover:text-cpo-orange transition-colors`}>The Experience</a>
+          <a href="#rules" className={`${isScrolled ? 'text-cpo-charcoal' : 'text-white'} hover:text-cpo-orange transition-colors`}>Community Rules</a>
+          <a href="#membership" className={`${isScrolled ? 'text-cpo-charcoal' : 'text-white'} hover:text-cpo-orange transition-colors`}>Membership</a>
+          <a href="#sponsor" className={`${isScrolled ? 'text-cpo-charcoal' : 'text-white'} hover:text-cpo-orange transition-colors`}>Sponsorship</a>
           <Button className="btn-cpo">Join Now</Button>
         </div>
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-cpo-charcoal"
+          className={`md:hidden ${isScrolled ? 'text-cpo-charcoal' : 'text-white'}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? (

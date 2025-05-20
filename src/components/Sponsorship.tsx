@@ -21,7 +21,7 @@ const Sponsorship = () => {
               <div 
                 className="w-full h-full bg-cover bg-center"
                 style={{ 
-                  backgroundImage: "url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3')", 
+                  backgroundImage: "url('/lovable-uploads/692d3cb2-8c96-4543-94c3-8f5f0f8c5a93.png')", 
                   minHeight: "400px"
                 }}
               >
