@@ -13,14 +13,14 @@ const CallToAction = () => {
       </div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white font-heading drop-shadow-md">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
           Ready to Meet Your People?
         </h2>
-        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10 font-body">
+        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-10">
           Apply for an upcoming lunch or try the Back Room for free. It's time to connect with the leaders who get it.
         </p>
         <div className="flex justify-center">
-          <Button className="bg-gradient-to-r from-cpo-orange to-cpo-light-orange hover:from-cpo-light-orange hover:to-cpo-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all font-body shadow-xl hover:shadow-white/20 hover:-translate-y-1">
+          <Button className="bg-gradient-to-r from-cpo-orange to-cpo-light-orange hover:from-cpo-light-orange hover:to-cpo-orange text-white px-8 py-6 text-lg rounded-md font-medium transition-all shadow-xl hover:shadow-white/20 hover:-translate-y-1">
             Apply Now
           </Button>
         </div>

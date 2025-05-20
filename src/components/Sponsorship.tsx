@@ -27,18 +27,18 @@ const Sponsorship = () => {
               <div 
                 className="w-full h-full bg-cover bg-center"
                 style={{ 
-                  backgroundImage: "url('/lovable-uploads/692d3cb2-8c96-4543-94c3-8f5f0f8c5a93.png')", 
+                  backgroundImage: "url('/lovable-uploads/f808272a-588b-4b3a-a943-1d4c26059863.png')", 
                   minHeight: "400px"
                 }}
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-cpo-charcoal/60 to-transparent"></div>
+                {/* Removed gradient overlay */}
               </div>
             </div>
           </div>
           
           {/* Right Column - Content */}
           <div className="lg:w-1/2">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-cpo-charcoal font-heading">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-cpo-charcoal">
               Sponsorship Opportunities
             </h2>
             <p className="text-lg text-cpo-light-charcoal mb-6">

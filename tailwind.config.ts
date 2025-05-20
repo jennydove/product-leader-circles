@@ -20,10 +20,10 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Work Sans', 'sans-serif'],
-				serif: ['Playfair Display', 'serif'],
-				heading: ['Playfair Display', 'serif'],
-				body: ['Work Sans', 'sans-serif'],
+				sans: ['TildaSans', 'Arial', 'sans-serif'],
+				serif: ['TildaSans', 'Arial', 'sans-serif'],
+				heading: ['TildaSans', 'Arial', 'sans-serif'],
+				body: ['TildaSans', 'Arial', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
